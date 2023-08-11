@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap" rel="stylesheet">
+	<title>WAKIL DIREKTUR</title>
+</head>
+
+<body>
+    <h3>Rekapitulasi Bonus AkhirTahun Karyawan PT.AnginRibut</h3>
+	<h5>[JABATAN : SUPERVISOR]</h5>
+	<h5>[HALAMAN : 3]</h5>
+	<a href="home.html">Home |</a>
+    <a href="halaman1.html"> 1 |</a>
+    <a href="halaman2.html"> 2 |</a>
+    <a href="halaman3.html"> 3 |</a>
+	<a href="rekap.html"> Rekap |</a>
+	<!-- <p align="center"><b>HALAMAN : 001</b></p> -->
+	
+	<form name='biodata3' method='post' action='tutor.html'>
+		<pre>
+		<!--atribut name [nim, nama, agama] untuk identifikasi atau pemberian nama agar javascript dapat mengaksesnya
+		dan menerima inputannya-->
+<label>NO                 : <input type='number' name='nomor3'></label><br>
+<label>NIP                : <input type='number' name='nip3'></label><br>
+<label>NAMA               : <input type='text' name='nama3'></label><br>
+<label>STATUS             : <select name='status3'><br>
+							<option>Sudah menikah
+							<option>Belum menikah
+							</select>
+							<br></label>
+<label>JML ANAK           : <input type='number' name='anak3'></label><br>
+<label>GAJI               : <input type='number' name='gaji3'></label><br>
+<label>BONUS AKHIR TAHUN  : <input type='number' name='bonus3'></label><br>
+<label>BUDGET             : <input type='number' name='budget3'></label><br>
+<label>TUNJANGAN ANAK     : <input type='number' name='tunjanak3'></label><br>
+<label>TUNJANGAN ISTRI    : <input type='number' name='tunjistri3'></label><br>
+<label>GAJI BERSIH        : <input type='number' name='gajibersih3'></label><br>
+		</pre>
+
+		<!--//terimainput() menjadi nama fungsi javaScript-->
+		<input type='button' onClick='terimainput3()' value='Simpan'>
+		<input type='reset' value='Ulangi'>
+		<p><b>[JABATAN : SUPERVISOR] &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; HALAMAN : 3</b></p>
+
+	</form>
+		<!--// id yang ada di dalam TAG table digunakan sebagai selector penghubung javascript.-->
+		<!--// Dengan id tersebut, javascript akan memiliki hak akses untuk memanipulasi tabel-->
+		<table border='1' id='tabelinput3' cellspacing="0" cellpadding="8"> 
+		<!--//tabelinput-->
+		<br><br>
+			<thead>
+				<tr>
+					<th>NO</th>
+					<th>NIP</th>
+					<th>NAMA</th>
+					<th>STATUS</th>
+					<th>ANAK</th>
+					<th>GAJI</th>
+					<th>BONUS AKHIR TAHUN</th>
+					<th>BUDGET</th>
+					<th>TUNJANGAN ANAK</th>
+					<th>TUNJANGAN ISTRI</th>
+					<th>GAJI BERSIH</th>
+				</tr>
+			</thead>
+		</table>
+	<span id="hasil3"></span>
+	<span id="hasilBonus3"></span>
+	<span id="hasilBudget3"></span>
+	<span id="hasilTunjanak3"></span>
+	<span id="hasilTunjistri3"></span>
+	<span id="hasilGajibersih3"></span>	
+<script src='tabel.js'></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>JAVA SCRIPT TABEL</title>
+	<script src='tabel.js'></script>
+</head>
+
+<body>
+<form name='biodata' method='post' action='tutor.html'>
+
+<p>
+<!--atribut name [nim, nama, agama] untuk identifikasi atau pemberian nama agar javascript dapat mengaksesnya
+dan menerima inputannya-->
+<label>Nim &emsp; &emsp;: <input type='number' name='nim'></label><br>
+<label>Nama &emsp; &nbsp;: <input type='text' name='nama'></label><br>
+<label>Agama &emsp;: <select name='agama'></label><br>
+		<option>Islam
+		<option>Hindu
+		<option>Budha
+		<option>Kristen
+		<option>Konghucu
+		</select>
+</p>
+
+<!--//terimainput() menjadi nama fungsi javaScript-->
+<input type='button' onClick='terimainput()' value='Simpan'>
+<input type='reset' value='Ulangi'>
+</form>
+<!--// id yang ada di dalam TAG table digunakan sebagai selector penghubung javascript.-->
+<!--// Dengan id tersebut, javascript akan memiliki hak akses untuk memanipulasi tabel-->
+<table border='1' id='tabelinput' cellspacing="0" cellpadding="8"> 
+<!--//tabelinput-->
+<br><br>
+<thead>
+	<tr>
+	<th>NIM</th>
+	<th>NAMA</th>
+	<th>AGAMA</th>
+	</tr>
+</thead>
+</table>
+
+</body>
+</html>

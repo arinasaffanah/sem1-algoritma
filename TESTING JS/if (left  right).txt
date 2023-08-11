@@ -1,0 +1,107 @@
+if (left < right)
+            {
+                int mid = left + (right - left) / 2;
+
+                mergesort(arr, left, mid);      // kiri
+                mergesort(arr, mid + 1, right); // kanan
+
+                merge(arr, left, mid, right);
+            }
+
+// tampilkan data setelah di-sort descending
+        cout << "\nHasil akhir data sort Descending  : ";
+        for (int b = 0; b < length; b++)
+        {
+            cout << setw(2) << arr[b] << " ";
+        }
+        cout << endl;
+
+        cout << "\n=============== Program Selesai ==============" << endl;
+
+
+
+
+
+
+
+
+bawang merah, bawang putih, cabe rawit. cincang
+saos tiram, kecap manis
+
+
+
+
+
+lakukan parafrase pada teks berikut agar mudah dipahami dalam bahasa indonesia
+
+Kantin Online Esa Unggul
+Kantin Online Esa Unggul merupakan sebuah website yang dirancang khusus dalam bidang layanan pemesanan makanan/minuman secara online. Website ini dikhususkan untuk kantin/outlet yang terdapat di Esa Unggul.
+
+Latar Belakang
+Pada dasarnya, ada 4 hal yang melatarbelakangi pembuatan sistem ini, yakni
+Kapasitas Kantin
+Terbatasnya ketersedian tempat duduk dan meja makan di kantin kerap kali terjadi over capacity. Tentu hal ini cukup membuat kesal, apalagi misalnya ketika kita jauh-jauh dari gedung A (lt.7) dan karena lapar kita menuju kantin untuk makan, tetapi ketika sampai di kantin kita malah tidak kebagian tempat duduk, ini artinya kita sia-sia dan telah menguras tenaga untuk berjalan dari gedung A ke kantin namun tidak mendapatkan yang kita inginkan.
+Kendala Pesanan
+Pada proses pemesanan di kantin, terkadang pesanan tidak sesuai urutan (misalnya kita lebih dahulu memesan makanan di kantin, tak lama kemudian meja sebelah memesan menu yang sama. Namun, mereka duluan yang diantarkan makanannya). Selain itu, pesanan juga terkadang terlewatkan, sehingga hal ini menjadi salah satu concern mahasiswa/i di kampus Esa Unggul.
+Proses Pembayaran
+Terkadang sisa kembalian pembayaran yang tidak sesuai.
+Meja Customer
+Saat pengantaran pesanan, penjual terkadang kesultan menemukan meja pembelinya (tidak tersedia nomor meja).
+
+3. Tujuan
+Memudahkan pembeli dalam pemesanan menu tanpa harus mengantri
+Memudahkan pembeli untuk mengetahui ketersediaan tempat duduk (efisiensi waktu)
+Memudahkan penjual & pembeli dalam sistem pembayaran
+Mengurangi terjadinya kelebihan kapasitas di kantin
+
+4. Batasan Masalah
+Fokus pada perbaikan sistem pembayaran di kantin Esa Unggul
+Fokus pada pengolahan kapasitas pembeli di kantin.
+
+
+5. Cara penggunaan sistem website Kantin Online Esa Unggul
+Mendaftarkan akun pada sistem menggunakan nomor HP atau email.
+Setelah mendaftarkan akun, dilanjutkan dengan login akun pada website.
+Setelah login, selanjutnya akan langsung masuk ke menu homepage.
+Di dalam menu homepage terdiri atas : 
+bagian paling atas terdapat foto kantin esa unggul
+tepat di bawah foto kantin ada bar pencarian terkait menu dan/atau outlet
+di bawahnya lagi terdapat informasi saldo emoney yang terhubung dan menu-menu seperti top-up saldo, transfer saldo … 
+di bawahnya terdapat menu bar terkait kategori/jenis makanan, seperti fast food, noodle, rice, meat, beverages, rice, dan dessert.
+di bawahnya lagi terdapat display ads dari menu2 kantin dan sponsor
+dan paling bawah kanan tertera username dan bawah kiri terdapat icon report problem
+			## note : sepertinya jelasin keterangan posisinya gaperlu#
+setelah mengeklik salah satu dari jenis makanan, maka akan masuk ke jenis menu yang telah dipilih. misalnya memilih beverages, maka di paling atas akan ada foto minuman dan display name “beverages”. dilanjut di bawahnya ada menu-menu minuman yang tersedia di kantin Esa Unggul. Masing-masing pilihan minuman yang tersedia, tertera nama minuman, harga, nama outlet, deskripsi minuman, dan jumlah pesanan yang diinginkan.
+Setelah pemesanan dilanjutkan dengan pemilihan antara take away atau dine in. jika memilih take away maka akan lanjut ke pembayaran, namun jika memilih dine in maka akan lanjut ke pemilihan kursi yang tersedia. Pada saat pemilihan kursi, akan terlihat letak posisi meja, keterangan meja yang tersedia (misalnya ditandai dengan warna biru), yang tidak tersedia (ditandai dengan warna merah), dan pilihan meja kita (jika tersedia akan berwarna orange, jika tidak tersedia tidak dapat dipilih). saat pemilihan meja juga akan terlihat keterangan nomor meja yang telah dipilih.
+Masih di tampilan yang sama, di samping keterangan nomor meja ada informasi terkait saldo dan metode pembayaran (yang bisa diubah). Jika saldo tidak mencukupi maka akan dialihkan pada metode pembayaran cash pada tiap outlet. 
+di bawah metode pembayaran ada juga menu apply voucher (voucher didapatkan dari masing-masing outlet dan hanya bisa digunakan pada outlet yang memberikan voucher). dan terakhir di bawahnya ada order summary yakni menu apa aja yang dipesan, jumlah yang dipesan, harga tiap menu yang dipesan dan terakhir harga total pesanan.
+setelah pesanan dibayar dan dikonfirmasi maka akan lanjut ke tampilan receipt (kuitansi/bill). pada tampilan receipt ada : 
+tanggal dan waktu pemesanan
+tiap-tiap menu yang dipesan (termasuk dengan jumlah dan harga yang dipesan)
+total keseluruhan harga (termasuk dengan potongannya jika memasukkan voucher)
+ada keterangan metode pembayaran  yang digunakan
+ada checkbox terkait pilihan dine in dan take away (dan ada button tambahan untuk ganti meja maksimal 2 kali)
+ada informasi terkait pembayaran berhasil
+dan terakhir ada rating menu.
+
+
+
+lakukan parafrase teks berikut menggunakan bahasa indonesia yang mudah dipahami
+
+- tanggal dan waktu pemesanan
+- tiap-tiap menu yang dipesan (termasuk dengan jumlah dan harga yang dipesan)
+- total keseluruhan harga
+- ada keterangan metode pembayaran  yang digunakan
+- ada checkbox terkait pilihan dine in dan take away (dan ada button tambahan untuk ganti meja maksimal 2 kali)
+- ada informasi terkait pembayaran berhasil
+- dan terakhir ada rating menu.
+
+
+
+
+
+
+
+
+
+

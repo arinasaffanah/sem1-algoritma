@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>DIREKTUR</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h3>Rekapitulasi Bonus AkhirTahun Karyawan PT.AnginRibut</h3>
+	<h5>[JABATAN : WAKIL DIREKTUR]</h5>
+	<h5 class="halaman">[HALAMAN : 2]</h5>
+	<a href="home.html">Home |</a>
+    <a href="halaman1.html"> 1 |</a>
+    <a href="halaman2.html"> 2 |</a>
+    <a href="halaman3.html"> 3 |</a>
+	<a href="rekap.html"> Rekap |</a>
+	<!-- <p align="center"><b>HALAMAN : 001</b></p> -->
+	
+	<form name='biodata' method='post' action='tutor.html'>
+		<pre>
+		<!--atribut name [nim, nama, agama] untuk identifikasi atau pemberian nama agar javascript dapat mengaksesnya
+		dan menerima inputannya-->
+<label>NO                 : <input type='number' name='nomor'></label><br>
+<label>NIP                : <input type='number' name='nip'></label><br>
+<label>NAMA               : <input type='text' name='nama'></label><br>
+<label>STATUS             : <select name='status'><br>
+							<option>Sudah menikah
+							<option>Belum menikah
+							</select>
+							<br></label>
+<label>JML ANAK           : <input type='number' name='anak'></label><br>
+<label>GAJI               : <input type='number' name='gaji'></label><br>
+<label>BONUS AKHIR TAHUN  : <input type='number' name='bonus'></label><br>
+<label>BUDGET             : <input type='number' name='budget'></label><br>
+<label>TUNJANGAN ANAK     : <input type='number' name='tunjanak'></label><br>
+<label>TUNJANGAN ISTRI    : <input type='number' name='tunjistri'></label><br>
+<label>GAJI BERSIH        : <input type='number' name='gajibersih'></label><br>
+		</pre>
+
+		<!--//terimainput() menjadi nama fungsi javaScript-->
+		<input type='button' onClick='terimainput()' value='Simpan'>
+		<input type='reset' value='Ulangi'>
+		<p><b>[JABATAN : DIREKTUR] &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; HALAMAN : 1</b></p>
+        <!-- <p><b>[JABATAN : DIREKTUR]></b></p> -->
+
+	</form>
+		<!--// id yang ada di dalam TAG table digunakan sebagai selector penghubung javascript.-->
+		<!--// Dengan id tersebut, javascript akan memiliki hak akses untuk memanipulasi tabel-->
+		<table border='1' id='tabelinput' cellspacing="0" cellpadding="8"> 
+		<!--//tabelinput-->
+		<br><br>
+			<thead>
+				<tr>
+					<th>NO</th>
+					<th>NIP</th>
+					<th>NAMA</th>
+					<th>STATUS</th>
+					<th>ANAK</th>
+					<th>GAJI</th>
+					<th>BONUS AKHIR TAHUN</th>
+					<th>BUDGET</th>
+					<th>TUNJANGAN ANAK</th>
+					<th>TUNJANGAN ISTRI</th>
+					<th>GAJI BERSIH</th>
+				</tr>
+			</thead>
+		</table>
+	<span id="hasil"></span>
+	<span id="hasilBonus"></span>
+	<span id="hasilBudget"></span>
+	<span id="hasilTunjanak"></span>
+	<span id="hasilTunjistri"></span>
+	<span id="hasilGajibersih"></span>
+
+<script src='tabel.js'></script>
+</body>
+</html>

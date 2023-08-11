@@ -1,0 +1,35 @@
+1. tentukan populasi
+2.
+
+contoh kalo 5 orng sdh menggambarkan populasi sdh cukup, kalau belum tambah.
+
+klau berhubungan langsung dengan user itu pake cost
+jadi kalo banyak sample terlalu banyak cost yang digunakan
+
+D beberapa tipe distribusi
+normal distribusi : seimbang kiri dan kanan (sempurna), median, mean, mode ada di titik yang sama (saling berdekatan).
+hampir tidak ada di dunia.
+skewed distribution : condong ke kanan (positif) atau condong ke kiri (negatif). urutannya mean, median, mode (biasanya di puncak grafis-nya). 
+
+negatif : angkanya condong ke yg gede, karena ada data ekstrim dia condong ke kiri (mean), rendah di bagian kiri.
+
+positif : 
+
+contoh : dalam satu kelas anak, gaji ortunya beda2. 
+ada data yang jauh dari data yang lain.
+
+kalo normal : data tersebar rata
+skewed : penyebaran data tidak rata. ada yng berdekatan lalu tiba2 ada yg jauh.
+
+keputusan bisa duibah jadi rata2 ke median.
+
+pie chart : kalau data lebih dari 5 jangan pakai (sush melihat distribusinya)
+
+treemap : ada level agregasi. ada variabel ada item. semakin besar, semakin banyak datanya
+
+stacked chart : komparison dan mengehemat ruang
+
+metric adalah apa yang ingin kita lihatkan (hitung2annya). contoh cost.
+
+tipe rasio ketika yang ditunjukkan persentase
+

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap" rel="stylesheet">
+    <title>Halaman 1</title>
+</head>
+<body>
+
+    <div>
+        <div class="title">
+            <h1>Rekapitulasi Bonus AkhirTahun Karyawan PT.AnginRibut</h1>
+        </div>
+
+        <div>
+            <a href="home.html">Home</a>
+        </div>
+    </div>
+
+    <div>
+        <!-- coba ubah di js pake textContent, trus pakein /n -->
+        <p>[Jabatan : Direktur]</p> 
+        <p>Halaman : 1</p>
+    </div>
+
+    <!-- <form name="biodata">
+        <table>
+            <tbody id="hasilInput">
+                <tr>
+                    <td><label for="inputNip">NIP</label></td>
+                    <td>: <input type="text" id="nip" name="nip"></td>
+                </tr>
+                <tr>
+                    <td><label for="inputNama">NAMA</label></td>
+                    <td>: <input type="text" id="nama" name="nama"></td>
+                </tr>
+                <tr>
+                    <td><label for="inputStatus">STATUS</label></td>
+                    <td>: <select id="status" name='status'>
+                        <option>Sudah menikah
+                        <option>Belum menikah
+                        </select>
+                        </td>
+                </tr>
+                <tr>
+                    <td><label for="inputJumlahAnak">JUMLAH ANAK</label></td>
+                    <td>: <input type="number" id="jumlahAnak" name="jumlahAnak"></td>
+                </tr>
+                <tr>
+                    <td><label for="inputGaji">GAJI</label></td>
+                    <td>: <input type="number" id="gaji" name="gaji""></td>
+                </tr>
+                <br>
+            </tbody>
+        </table>
+        <br> -->
+
+        <!-- <table>
+            <tbody>
+                <tr>
+                    <td>Masukkan data dengan benar :</td>
+                </tr>
+                <tr>
+                    <td><label for="inputMasaKerja">Masa Kerja</label></td>
+                    <td>:<label><input type="radio" name="masaKerja" value="kurang1tahun">Kurang 1 tahun</label>
+                        <label><input type="radio" name="masaKerja" value="satuEmpatTahun">1 - 4 tahun</label>
+                        <label><input type="radio" name="masaKerja" value="limaSembilanTahun">5 - 9 tahun</label>
+                        <label><input type="radio" name="masaKerja" value="10Tahun">10 tahun dan ke atas</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="inputSanksi">Sanksi Surat Peringatan</label></td>
+                    <td>:<label><input type="radio" name="sanksi" value="kosong">Tanpa sanksi</label>
+                        <label><input type="radio" name="sanksi" value="spSatu">SP I</label>
+                        <label><input type="radio" name="sanksi" value="spDua">SP II</label>
+                        <label><input type="radio" name="sanksi" value="spTiga">SP III</label>
+                        <label><input type="radio" name="sanksi" value="skorsing">Skorsing 3 bulan</label>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+<br>
+        <input type='submit' onSubmit='terimaInput()' value='Save'>
+		<input type='reset' value='Add New'>
+    </form>
+<br> -->
+        <table border="1" id="tabelInput" cellspacing="0" cellpadding="8">
+            <thead>
+                <tr>
+                    <th>NO</th>
+                    <th>NIP</th>
+                    <th>NAMA</th>
+                    <th>STATUS</th>
+                    <th>JUMLAH ANAK</th>
+                    <th>GAJI</th>
+                    <th>BONUS AKHIR TAHUN</th>
+                    <th>TUNJANGAN ANAK</th>
+                    <th>TUNJANGAN ISTRI</th>
+                    <th>GAJI BERSIH</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>20170801189</td>
+                    <td>Arina Saffanah Zakiyyah</td>
+                    <td>Belum menikah</td>
+                    <td>0</td>
+                    <td>20000000</td>
+                    <td>16000000</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>15000000</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <th>TOTAL</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tfoot>
+        </table>
+        
+<script src='tabel.js'></script>
+</body>
+</html>
